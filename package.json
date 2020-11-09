@@ -1,14 +1,17 @@
 {
-  "name": "codertest1",
+  "name": "nozaki-button",
   "version": "0.1.2",
   "private": false,
-  "main": "./dist/astrocoder.common.js",
-  "description": "Componente de atividade AstroCoder ViaMaker",
+  "main": "dist/nozaki-button.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "buildComponent": "vue-cli-service build --target lib --name astrocoder src/index.js",
+    "build-lib": "vue-cli-service build --target lib --inline-vue --name nozaki-button src/main.js",
     "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoNozaki/NpmTest.git"
   },
   "dependencies": {
     "core-js": "^3.6.5",
