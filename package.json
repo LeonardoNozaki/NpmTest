@@ -1,6 +1,6 @@
 {
   "name": "nozaki-button",
-  "version": "0.1.2",
+  "version": "0.2.2",
   "private": false,
   "main": "dist/nozaki-button.common.js",
   "scripts": {
